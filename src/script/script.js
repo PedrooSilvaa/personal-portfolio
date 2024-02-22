@@ -1,3 +1,9 @@
+    document.getElementById("pdf").addEventListener('click', function() {
+        var caminho = 'src/pdf/Pedro Henrique Ferreira Da Silva.pdf'
+        window.open(caminho, '_blank');
+    })
+
+
 function Readmore(){
     reading = document.getElementById("read").innerText;
 
