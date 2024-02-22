@@ -1,1 +1,1 @@
- https://pedroosilvaa.github.io/Portfolio/
+ https://pedroosilvaa.github.io/portfolio/
