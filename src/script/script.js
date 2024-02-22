@@ -15,6 +15,8 @@ function Readmore(){
     }
 }
 
+const nodemailer = require('nodemailer');
+
 function Submit(){
     var firstName = document.getElementById("box-first-name").value;
     var lastName = document.getElementById("box-last-name").value;
@@ -22,5 +24,5 @@ function Submit(){
     var email = document.getElementById("box-email").value;
     var message = document.getElementById("box-message").value;
 
-    console.log("Name: " + firstName + " " + lastName + "\nContact: " + number + " | " + email + "\n" + message)
+    console.log("Name: " + firstName + " " + lastName + "\nContact: " + number + " | " + email + "\n" + message);
 }
