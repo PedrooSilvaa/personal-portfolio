@@ -72,13 +72,27 @@
                <h1>Contact <strong>Me</strong></h1>
             </div>
             <div class="grid-contact">
-               <div id="box-first-name" class="caixa um"><input type="text" placeholder="First Name"></div>
-               <div id="box-last-name" class="caixa dois"><input type="text" placeholder="Last Name"></div>
-               <div id="box-number" class="caixa tres"><input type="text" placeholder="Mob. Number"></div>
-               <div id="box-email" class="caixa quatro"><input type="text" placeholder="Email Address"></div>
-               <div id="box-message" class="caixa cinco"><textarea cols="30" rows="5" placeholder="Your message"></textarea></div>
+                <div class="caixa um">
+                    <input type="text" id="box-first-name" placeholder="First Name">
+                  </div>
+                
+                  <div class="caixa dois">
+                    <input type="text" id="box-last-name" placeholder="Last Name">
+                  </div>
+                
+                  <div class="caixa tres">
+                    <input type="text" id="box-number" placeholder="Number. Example: (11)94002-8922">
+                  </div>
+                
+                  <div class="caixa quatro">
+                    <input type="text" id="box-email" placeholder="Email Address">
+                  </div>
+                
+               <div class="caixa cinco">
+                <textarea cols="30" rows="5" id="box-message" placeholder="Your message"></textarea>
             </div>
-            <button type="submit">Submit</button>
+            </div>
+            <button onclick="Submit()" type="submit">Submit</button>
          </div>
       </main>
       <footer>

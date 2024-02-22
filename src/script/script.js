@@ -15,3 +15,12 @@ function Readmore(){
     }
 }
 
+function Submit(){
+    var firstName = document.getElementById("box-first-name").value;
+    var lastName = document.getElementById("box-last-name").value;
+    var number = document.getElementById("box-number").value;
+    var email = document.getElementById("box-email").value;
+    var message = document.getElementById("box-message").value;
+
+    console.log("Name: " + firstName + " " + lastName + "\nContact: " + number + " | " + email + "\n" + message)
+}
