@@ -25,4 +25,17 @@ function Submit(){
     var message = document.getElementById("box-message").value;
 
     console.log("Name: " + firstName + " " + lastName + "\nContact: " + number + " | " + email + "\n" + message);
+
+    Email.send({
+        Host: "smtp.gmail.com",
+        Username: "portfolioautomail@gmail.com",
+        Password: '12345678Ap',
+        To: 'pedrohenriquefdasilva14@gmail.com',
+        From: "portfolioautomail@gmail.com",
+        Subject: "Nova Mensagem do Portfólio",
+        Body: "Name: " + firstName + " " + lastName + "\nContact: " + number + " | " + email + "\n" + message,
+      })
+        .then(function (message) {
+          alert("mail sent successfully")
+        });
 }
