@@ -17,15 +17,15 @@
          </div>
          <div class="menu">
             <ul>
-               <li>Home</li>
-               <li>About</li>
-               <li>Portfolio</li>
-               <li>Contact</li>
+               <li onclick="home()">Home</li>
+               <li onclick="about()">About</li>
+               <li onclick="project()">Project</li>
+               <li onclick="contact()">Contact</li>
             </ul>
          </div>
       </header>
       <main>
-         <div class="home">
+         <div id="view-home" class="home">
             <div class="local_text_home">
                <h3>Hello, It's me</h3>
                <h1>Pedro Henrique</h1>
@@ -44,7 +44,7 @@
                <img src="src/image/png/perfil.png" alt="">
             </div>
          </div>
-         <div class="about">
+         <div id="view-about" class="about">
             <div class="image_about">
                <img src="src/image/png/perfil.png" alt="">
             </div>
@@ -57,7 +57,7 @@
                </div>
             </div>
          </div>
-         <div class="projects">
+         <div id="view-project" class="projects">
             <div class="title_projects">
                <h1>Latest <strong>Project</strong></h1>
             </div>
@@ -70,7 +70,7 @@
                <div class="box"><img src="src/image/png/Portal_Aluno.png" alt=""></div>
             </div>
          </div>
-         <div class="contact">
+         <div id="view-contact" class="contact">
             <div class="title-contact">
                <h1>Contact <strong>Me</strong></h1>
             </div>

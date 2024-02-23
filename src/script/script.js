@@ -39,3 +39,36 @@ function Submit(){
           alert("mail sent successfully")
         });
 }
+
+function home(){
+    var targetHome = document.getElementById("view-home");
+
+    window.scrollTo({
+        top: targetHome.offsetTop,
+        behavior: "smooth"
+    });
+}
+function about(){
+    var targetHome = document.getElementById("view-about");
+
+    window.scrollTo({
+        top: targetHome.offsetTop,
+        behavior: "smooth"
+    });
+}
+function project(){
+    var targetHome = document.getElementById("view-project");
+
+    window.scrollTo({
+        top: targetHome.offsetTop,
+        behavior: "smooth"
+    });
+}
+function contact(){
+    var targetHome = document.getElementById("view-contact");
+
+    window.scrollTo({
+        top: targetHome.offsetTop,
+        behavior: "smooth"
+    });
+}
