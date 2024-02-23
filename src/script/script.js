@@ -27,9 +27,9 @@ function Submit(){
     console.log("Name: " + firstName + " " + lastName + "\nContact: " + number + " | " + email + "\n" + message);
 
     Email.send({
-        Host: "smtp.gmail.com",
+        Host: "smtp.elasticemail.com",
         Username: "portfolioautomail@gmail.com",
-        Password: '12345678Ap',
+        Password: 'D0AC49B8827F62F78347C2FE42E08ED80065',
         To: 'pedrohenriquefdasilva14@gmail.com',
         From: "portfolioautomail@gmail.com",
         Subject: "Nova Mensagem do Portfólio",
