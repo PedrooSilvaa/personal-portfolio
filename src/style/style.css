@@ -116,7 +116,7 @@ header {
 }
 
 .image_home img {
-    background-color: rgb(0, 238, 255);
+    filter: drop-shadow(15px 5px 5px #0ef);
     border-radius: 200px;
     width: 300px;
     height: 500px;
@@ -197,7 +197,6 @@ header {
 }
 
 .box {
-    
     padding: 0 30px;
     padding-top: 40px;
 }
@@ -307,4 +306,47 @@ footer{
     align-items: center;
     color: white;
     background-color: #1f242d;
+}
+
+@media(max-width: 800px){
+     .menu ul {
+        margin: 0;
+     }
+     .menu ul li {
+        font-size: 15px;
+        padding: 0 5px;
+     }
+     .title {
+        margin: 0;
+        font-size: 15px;
+     }
+     .local_text_home, .local_text_about {
+        padding: 0 5px;
+     }
+     .local_text_home p, .local_text_about p{
+        font-size: 10px;
+     }
+     .image_home img, .image_about img {
+        width: 180px;
+        height: 380px;
+     }
+     .paigrid {
+        grid-template-columns:  1fr 1fr;
+        grid-template-rows:  1fr 1fr 1fr;
+     }
+     .box{
+        padding: 0 5px;
+        padding-top: 5px;
+     }
+     .title_projects{
+        padding-top: 20px;
+     }
+
+     .caixa{
+        /* margin: 0; */
+        width: 300px;
+     }
+     .um, .dois, .tres, .quatro{
+        width: 150px;
+     }
 }
