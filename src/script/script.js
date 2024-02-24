@@ -1,15 +1,17 @@
+    var modo = 1;
+    
     document.getElementById("pdf").addEventListener('click', function() {
         var caminho = 'src/pdf/Pedro Henrique Ferreira Da Silva.pdf'
         window.open(caminho, '_blank');
     })
 
-function Readmore(){
-    reading = document.getElementById("read").innerText;
-
-    if(reading == "Read Less"){
+function Reading(){
+    if(modo == 1){
+        modo = 2;
         document.getElementById("read"). innerText = "Read More"
         document.getElementById("paragraph-read").innerText = "My name is Pedro, I'm 19 years old and I'm from São Paulo. My programming journey began in 2020, during the pandemic. My effort and dedication led me to take the Swiss-Brazilian SENAI test, which I passed. Today, I am studying to be a technician in Systems Development, continuing to improve my skills and build my path in the exciting world of technology";
     }else{
+        modo = 1;
         document.getElementById("read"). innerText = "Read Less";
         document.getElementById("paragraph-read").innerText = "Hello! My name is Pedro, I'm 19 years old and I'm from São Paulo. My programming journey began in 2020, amid the challenges of the pandemic. With persistent effort and dedication, I reached a significant milestone by passing the Swiss-Brazilian SENAI test. \n\nI am currently enrolled in the technical course in Systems Development, where I have been improving my skills in HTML, CSS, JavaScript and Java. By integrating text and links into my projects, I am actively shaping my path in the fascinating world of technology. Join me on this exciting journey as I continue to learn, create and explore the infinite possibilities in the world of development.";
     }
