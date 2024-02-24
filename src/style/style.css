@@ -140,7 +140,7 @@ header {
 }
 
 .image_about img {
-    border: #0ef solid 2px;
+    filter: drop-shadow(0px 40px 40px #0ef);
     border-radius: 200px;
     width: 300px;
     height: 500px;
