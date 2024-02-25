@@ -331,6 +331,7 @@ footer{
      .image_home img, .image_about img {
         width: 180px;
         height: 380px;
+        margin-right: 55px;  
      }
      .paigrid {
         grid-template-columns:  1fr 1fr;
