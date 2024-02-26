@@ -358,10 +358,15 @@ footer{
         padding: 0 5px;
         padding-top: 5px;
         place-items: center;
+    }
+
+     .calculadora, .senai, .adega {
+        display: none;
      }
 
      .box img {
-        width: 50%;
+        width: 80%;
+        margin: 20px 0;
      }
      .title_projects{
         padding-top: 20px;
