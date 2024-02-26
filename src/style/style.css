@@ -322,24 +322,46 @@ footer{
         margin: 0;
         font-size: 15px;
      }
-     .local_text_home, .local_text_about {
+     .local_text_home {
         padding: 0 5px;
      }
-     .local_text_home p, .local_text_about p{
+     .local_text_home p{
         font-size: 10px;
      }
-     .image_home img, .image_about img {
+     .image_home img {
         width: 180px;
         height: 380px;
         margin-right: 55px;  
      }
+
+     .local_text_about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        padding: 0 20px;
+     }
+
+    .image_about, .image_about img {
+        display: none;
+    }
+
      .paigrid {
-        grid-template-columns:  1fr 1fr;
-        grid-template-rows:  1fr 1fr 1fr;
+        grid-template-columns:  1fr;
+        grid-template-rows:  1fr 1fr 1fr 1fr;
+        place-items: center;
      }
      .box{
+        display: grid;
         padding: 0 5px;
         padding-top: 5px;
+        place-items: center;
+     }
+
+     .box img {
+        width: 50%;
      }
      .title_projects{
         padding-top: 20px;
