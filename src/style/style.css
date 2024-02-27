@@ -341,13 +341,13 @@ label i {
         font-size: 15px;
      }
      .local_text_home {
-        padding-left: 0px;
+        padding-left: 10px;
      }
      .image_home img {
         width: 150px;
         height: 300px;
-        padding-top: 200px;
-        padding-right: 20px;  
+        padding-top: 150px;
+        margin-right: 20px;  
      }
      .title_home{
         display: flex;
