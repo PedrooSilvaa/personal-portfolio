@@ -7,14 +7,15 @@
       <link rel="stylesheet" href="src/style/style.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
       <script src=
-    "https://smtpjs.com/v3/smtp.js">
-  </script>
+         "https://smtpjs.com/v3/smtp.js"></script>
    </head>
    <body>
       <header>
          <div class="title">
             <h4>Portfolio.</h4>
          </div>
+         <label for="check"><i class="fa-solid fa-bars" id="menu-check"></i></label>
+         <input type="checkbox" id="check">  
          <div class="menu">
             <ul>
                <li onclick="home()">Home</li>
@@ -27,9 +28,11 @@
       <main>
          <div id="view-home" class="home">
             <div class="local_text_home">
-               <h3>Hello, It's me</h3>
-               <h1>Pedro Henrique</h1>
-               <h3>And I'm studying <strong>Frontend Development</strong></h3>
+               <div class="title_home">
+                  <h3>Hello, It's me</h3>
+                  <h1>Pedro Henrique</h1>
+                  <h3>And I'm studying <strong>Frontend Development</strong></h3>
+               </div>
                <p>Hey! I am a Systems Development student, exploring HTML, CSS, JavaScript and Java. Currently, I am focused on improving my database skills. Check out my projects!</p>
                <div class="icons">
                   <a href="https://www.linkedin.com/in/pedro-henrique-ferreira-da-silva-14ab5b249/"><i class="fa-brands fa-linkedin"></i></a>
@@ -62,12 +65,12 @@
                <h1>Latest <strong>Project</strong></h1>
             </div>
             <div class="paigrid">
-               <div class="box"><img src="src/image/png/imc_calculator.PNG" alt=""></div>
-               <div class="box"><img src="src/image/png/lanchonete.PNG" alt=""></div>
-               <div class="box"><img src="src/image/png/senai.PNG" alt=""></div>
-               <div class="box"><img src="src/image/png/Adega.png" alt=""></div>
-               <div class="box"><img src="src/image/png/Calculator.png" alt=""></div>
-               <div class="box"><img src="src/image/png/Portal_Aluno.png" alt=""></div>
+               <div class="box imc"><a href="https://github.com/PedrooSilvaa/imc-calculator/"><p>IMC Calculator</p></a><img src="src/image/png/imc_calculator.PNG" alt=""></div>
+               <div class="box lanchonete"><a href="https://github.com/PedrooSilvaa/snack-menu"><p>Snack Menu</p></a><img src="src/image/png/lanchonete.PNG" alt=""></div>
+               <div class="box senai"><a href="https://github.com/PedrooSilvaa/senai-website-copy"><p>Senai Website Copy</p></a><img src="src/image/png/senai.PNG" alt=""></div>
+               <div class="box adega"><a href="https://github.com/PedrooSilvaa/wine-cellar-menu"><p>Wine Cellar Menu</p></a><img src="src/image/png/Adega.png" alt=""></div>
+               <div class="box calculadora"><a href="https://github.com/PedrooSilvaa/calculator"><p>Calculator</p></a><img src="src/image/png/Calculator.png" alt=""></div>
+               <div class="box portal"><a href="https://github.com/PedrooSilvaa/senai-student-portal"><p>Senai Student Portal</p></a><img src="src/image/png/Portal_Aluno.png" alt=""></div>
             </div>
          </div>
          <div id="view-contact" class="contact">
@@ -75,25 +78,21 @@
                <h1>Contact <strong>Me</strong></h1>
             </div>
             <div class="grid-contact">
-                <div class="caixa um">
-                    <input type="text" id="box-first-name" placeholder="First Name">
-                  </div>
-                
-                  <div class="caixa dois">
-                    <input type="text" id="box-last-name" placeholder="Last Name">
-                  </div>
-                
-                  <div class="caixa tres">
-                    <input type="text" id="box-number" placeholder="Number. Example: (11)94002-8922">
-                  </div>
-                
-                  <div class="caixa quatro">
-                    <input type="text" id="box-email" placeholder="Email Address">
-                  </div>
-                
+               <div class="caixa um">
+                  <input type="text" id="box-first-name" placeholder="First Name">
+               </div>
+               <div class="caixa dois">
+                  <input type="text" id="box-last-name" placeholder="Last Name">
+               </div>
+               <div class="caixa tres">
+                  <input type="text" id="box-number" placeholder="Number. Example: (11)94002-8922">
+               </div>
+               <div class="caixa quatro">
+                  <input type="text" id="box-email" placeholder="Email Address">
+               </div>
                <div class="caixa cinco">
-                <textarea cols="30" rows="5" id="box-message" placeholder="Your message"></textarea>
-            </div>
+                  <textarea cols="30" rows="5" id="box-message" placeholder="Your message"></textarea>
+               </div>
             </div>
             <button onclick="Submit()" type="submit">Submit</button>
          </div>
