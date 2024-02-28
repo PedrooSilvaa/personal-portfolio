@@ -1,3 +1,5 @@
  https://pedroosilvaa.github.io/personal-portfolio/
  
-![screencapture-pedroosilvaa-github-io-portfolio-2024-02-25-20_58_16](https://github.com/PedrooSilvaa/portfolio/assets/125162325/c7645d08-97a1-4f1b-9738-46e94db29918)
+ ![portfolio desktop](https://github.com/PedrooSilvaa/personal-portfolio/assets/125162325/b68dd388-25cf-4316-9872-77e714e028a4)
+
+![portfolio mobile](https://github.com/PedrooSilvaa/personal-portfolio/assets/125162325/1a3d2f3a-3c6a-48b2-8983-7a2e0b54319c)
